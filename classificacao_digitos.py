@@ -52,7 +52,7 @@ class Rede(nn.Module):
 # Definição da função de custo e otimizador
 modelo = Rede()
 funcao_custo = nn.CrossEntropyLoss() # define a função de custo, a Cross Entropy Loss é ideal para classificação
-otimizador = torch.optim.Adam(modelo.parameters(), lr=0.01) # defini o otimizador usado para atualização dos pesos e a taxa de aprendizado
+otimizador = torch.optim.SGD(modelo.parameters(), lr=0.01, momentum=0.9) # defini o otimizador usado para atualização dos pesos e a taxa de aprendizado
 
 
 # treinamento da rede
