@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Esse projeto treina uma rede neural simples que identifica digitos escritos a mão no intervalo de 0-9. A IA foi treinada usando o banco de imagens do MNIST, onde cada uma tem 28x28 pixels, a função de custo utilizada foi a **Cross Entropy Loss** ideal para problemas de classificação onde cada imagem vai pertencer a somente uma classe, o itmizador utilizado foi o **SGD**, testei também com o Adam mas obtive desempenho inferior.
+Esse projeto treina uma rede neural simples que identifica digitos escritos a mão no intervalo de 0-9. A IA foi treinada usando o banco de imagens do MNIST, onde cada uma tem 28x28 pixels, a função de custo utilizada foi a **Cross Entropy Loss** ideal para problemas de classificação onde cada imagem vai pertencer a somente uma classe, o otmizador utilizado foi o **SGD**, testei também com o Adam mas obtive desempenho inferior.
 
 ## Como rodar
 
